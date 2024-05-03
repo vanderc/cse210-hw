@@ -6,10 +6,7 @@ public class Journal
     public List<String> _entries = new List<string>();
     public string _filename;
 
-    public Journal()
-    {
 
-    }
 
     public void DisplayEntry()
     {

@@ -9,10 +9,7 @@ public class Entry
     static DateTime dateNow = DateTime.Now;
     public string _date = dateNow.ToShortDateString();
 
-    public Entry()
-    {
 
-    }
 
     public string FormatEntry()
     {
