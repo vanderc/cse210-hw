@@ -17,14 +17,14 @@ class Program
 
         scripture._reference = reference.GetReference();
 
-        while(scripture.FullyHidden() && userInput != "quit")
+        while(scripture.CompletleyHidden() && userInput != "quit")
         {
             scripture.GetScriptureText();
             Console.WriteLine("\n");
             Console.WriteLine("Press enter to continue or type 'quit' to end: ");
             userInput = Console.ReadLine();
             Console.Clear();
-            scripture.HideRandomWord(8);
+            scripture.HideRandomWord(6);
         }
     }
 }

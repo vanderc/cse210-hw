@@ -57,7 +57,7 @@ class Scripture
         }
     }
 
-    public bool FullyHidden()
+    public bool CompletleyHidden()
     {
         foreach (Word wordObject in _words)
         {
