@@ -20,8 +20,7 @@ class Program
         while(scripture.FullyHidden() && userInput != "quit")
         {
             scripture.GetScriptureText();
-            Console.WriteLine();
-            Console.WriteLine();
+            Console.WriteLine("\n");
             Console.WriteLine("Press enter to continue or type 'quit' to end: ");
             userInput = Console.ReadLine();
             Console.Clear();
