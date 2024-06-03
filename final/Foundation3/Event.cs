@@ -7,7 +7,7 @@ public class Event
     private string _address;
     private string _eventType;
 
-    public Event(string eventType, string description, string date, string time, string address, string title)
+    public Event(string eventType, string title, string description, string date, string time, string address)
     {
         _eventType = eventType;
         _description = description;

@@ -13,7 +13,7 @@ class Program
         Console.WriteLine();
         Console.WriteLine(lecture.GetStandardDetails());
         Console.WriteLine();
-        Console.WriteLine(lecture.GetFullDetails());
+        Console.WriteLine(lecture.GetLectureInfo());
 
         OutdoorGatherings outdoorGatherings = new OutdoorGatherings("OutdoorGathering", "Picnic & games", "Bring a your own lunch and picnic blanket and play games together.", "September 20th, 2024", "1:00PM", "501 S I St, Tacoma, WA 98405");
         events.Add(lecture);
@@ -22,7 +22,7 @@ class Program
         Console.WriteLine();
         Console.WriteLine(outdoorGatherings.GetStandardDetails());
         Console.WriteLine();
-        Console.WriteLine(outdoorGatherings.GetFullDetails());
+        Console.WriteLine(outdoorGatherings.GetOutDoorInfo());
 
         Receptions receptions = new Receptions("Receptions", "Wedding Reception", "Come celebrate the marriage of John and Jane.", "September 21st, 2024", "6:00PM", "1102 S Pearl St, Tacoma, WA 98465");
         events.Add(lecture);
@@ -31,6 +31,6 @@ class Program
         Console.WriteLine();
         Console.WriteLine(receptions.GetStandardDetails());
         Console.WriteLine();
-        Console.WriteLine(receptions.GetFullDetails());
+        Console.WriteLine(receptions.GetReceptionInfo());
     }
 }
